@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F2386615E52DF30011CA97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2386515E52DF30011CA97 /* UIKit.framework */; };
+		27F2386815E52DF30011CA97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2386715E52DF30011CA97 /* Foundation.framework */; };
+		27F2386A15E52DF30011CA97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2386915E52DF30011CA97 /* CoreGraphics.framework */; };
+		27F2387015E52DF30011CA97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F2386E15E52DF30011CA97 /* InfoPlist.strings */; };
+		27F2387215E52DF30011CA97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2387115E52DF30011CA97 /* main.m */; };
+		27F2387615E52DF30011CA97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2387515E52DF30011CA97 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27F2386115E52DF30011CA97 /* FingertipsDota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingertipsDota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F2386515E52DF30011CA97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27F2386715E52DF30011CA97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27F2386915E52DF30011CA97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27F2386D15E52DF30011CA97 /* FingertipsDota-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingertipsDota-Info.plist"; sourceTree = "<group>"; };
+		27F2386F15E52DF30011CA97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27F2387115E52DF30011CA97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27F2387315E52DF30011CA97 /* FingertipsDota-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingertipsDota-Prefix.pch"; sourceTree = "<group>"; };
+		27F2387415E52DF30011CA97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27F2387515E52DF30011CA97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F2385E15E52DF30011CA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2386615E52DF30011CA97 /* UIKit.framework in Frameworks */,
+				27F2386815E52DF30011CA97 /* Foundation.framework in Frameworks */,
+				27F2386A15E52DF30011CA97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F2385615E52DF30011CA97 = {
+			isa = PBXGroup;
+			children = (
+				27F2386B15E52DF30011CA97 /* FingertipsDota */,
+				27F2386415E52DF30011CA97 /* Frameworks */,
+				27F2386215E52DF30011CA97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27F2386215E52DF30011CA97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F2386115E52DF30011CA97 /* FingertipsDota.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F2386415E52DF30011CA97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F2386515E52DF30011CA97 /* UIKit.framework */,
+				27F2386715E52DF30011CA97 /* Foundation.framework */,
+				27F2386915E52DF30011CA97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27F2386B15E52DF30011CA97 /* FingertipsDota */ = {
+			isa = PBXGroup;
+			children = (
+				27F2387415E52DF30011CA97 /* AppDelegate.h */,
+				27F2387515E52DF30011CA97 /* AppDelegate.m */,
+				27F2386C15E52DF30011CA97 /* Supporting Files */,
+			);
+			path = FingertipsDota;
+			sourceTree = "<group>";
+		};
+		27F2386C15E52DF30011CA97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27F2386D15E52DF30011CA97 /* FingertipsDota-Info.plist */,
+				27F2386E15E52DF30011CA97 /* InfoPlist.strings */,
+				27F2387115E52DF30011CA97 /* main.m */,
+				27F2387315E52DF30011CA97 /* FingertipsDota-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F2386015E52DF30011CA97 /* FingertipsDota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F2387915E52DF30011CA97 /* Build configuration list for PBXNativeTarget "FingertipsDota" */;
+			buildPhases = (
+				27F2385D15E52DF30011CA97 /* Sources */,
+				27F2385E15E52DF30011CA97 /* Frameworks */,
+				27F2385F15E52DF30011CA97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingertipsDota;
+			productName = FingertipsDota;
+			productReference = 27F2386115E52DF30011CA97 /* FingertipsDota.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F2385815E52DF30011CA97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = xujingbao;
+			};
+			buildConfigurationList = 27F2385B15E52DF30011CA97 /* Build configuration list for PBXProject "FingertipsDota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27F2385615E52DF30011CA97;
+			productRefGroup = 27F2386215E52DF30011CA97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F2386015E52DF30011CA97 /* FingertipsDota */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F2385F15E52DF30011CA97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2387015E52DF30011CA97 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F2385D15E52DF30011CA97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2387215E52DF30011CA97 /* main.m in Sources */,
+				27F2387615E52DF30011CA97 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27F2386E15E52DF30011CA97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F2386F15E52DF30011CA97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F2387715E52DF30011CA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27F2387815E52DF30011CA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F2387A15E52DF30011CA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingertipsDota/FingertipsDota-Prefix.pch";
+				INFOPLIST_FILE = "FingertipsDota/FingertipsDota-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27F2387B15E52DF30011CA97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingertipsDota/FingertipsDota-Prefix.pch";
+				INFOPLIST_FILE = "FingertipsDota/FingertipsDota-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F2385B15E52DF30011CA97 /* Build configuration list for PBXProject "FingertipsDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F2387715E52DF30011CA97 /* Debug */,
+				27F2387815E52DF30011CA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F2387915E52DF30011CA97 /* Build configuration list for PBXNativeTarget "FingertipsDota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F2387A15E52DF30011CA97 /* Debug */,
+				27F2387B15E52DF30011CA97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F2385815E52DF30011CA97 /* Project object */;
+}
